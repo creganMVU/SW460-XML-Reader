@@ -1,10 +1,10 @@
-all: hello.exe
+all: HelloWorld.exe
 
-hello.exe: hello.o
-	gcc -o hello.exe hello.o
+HelloWorld.exe: HelloWorld.o
+	gcc -o HelloWorld.exe HelloWorld.o
 
-hello.o: hello.c
-	gcc -c hello.c
+HelloWorld.o: HelloWorld.c
+	gcc -c HelloWorld.c
 
 clean:
-	rm hello.o hello.exe
+	rm HelloWorld.o HelloWorld.exe
